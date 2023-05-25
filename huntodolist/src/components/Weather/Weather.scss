@@ -1,0 +1,15 @@
+.WeatherBox {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #fff;
+  margin-left: 5vw;
+}
+.WeatherBox h2 {
+  font-size: 2rem;
+}
+
+.WeatherBox p {
+  font-size: 1.2rem;
+}

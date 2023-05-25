@@ -1,0 +1,35 @@
+// TodoList.scss
+
+.TodoListBox {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    // border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .header button {
+      padding: 10px;
+      background-color: #ddd;
+      border: none;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .header button:hover {
+      background-color: #555;
+    }
+  }
+}

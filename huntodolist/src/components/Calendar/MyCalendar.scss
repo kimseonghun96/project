@@ -1,0 +1,37 @@
+.myCalendar {
+  width: 100%;
+  max-width: 400px;
+  margin-left: 2vw;
+  margin-top: 2.2vh;
+}
+
+.react-calendar {
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.react-calendar__year-view .react-calendar__tile {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.react-calendar__year-view .react-calendar__tile__content {
+  font-size: 5vw;
+}
+.react-calendar__navigation__label__labelText,
+.react-calendar__navigation__label__labelText--from {
+  font-size: 1.3vw;
+}
+.has-todo {
+  background-color: red;
+  color: white;
+  border-radius: 20%;
+}
+
+.myCalendar .has-todo {
+  background-color: red;
+}
+
+.myCalendar .has-todo-completed {
+  background-color: #4caf50;
+}

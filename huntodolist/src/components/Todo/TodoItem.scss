@@ -1,0 +1,56 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  .task {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 1.1rem;
+  }
+  .date {
+    font-size: 0.9rem;
+    margin-left: auto;
+  }
+  .delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #ccc;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background-color: #f8f8f8;
+      border-color: #aaa;
+      color: #aaa;
+    }
+    &:active {
+      background-color: #eee;
+      border-color: #999;
+      color: #999;
+    }
+  }
+  input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    &:checked {
+      border-color: #4caf50;
+      background-color: #4caf50;
+    }
+  }
+}
